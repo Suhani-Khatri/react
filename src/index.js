@@ -23,9 +23,15 @@ import './index.css';
 // import ScoreBoard from './resettingState';
 // import Messengers from './ressetingForm';
 // import TaskApp from './TaskApp';
-import AppTask from './AppTask';
+// import AppTask from './AppTask';
+// import Page from './context/Main';
+// import GalleryApp from './Gallery/GalleryApp';
+// import TaskApp from './ReducerContext/TaskApp';
+// import TaskApp from './contextReducer/App';
+import ContextContainer from './ContextExample/ContextContainer';
 import './style.css';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -53,7 +59,12 @@ root.render(
   {/* <ScoreBoard/> */}
   {/* <Messengers/> */}
   {/* <TaskApp/> */}
-  <AppTask/>
+  {/* <AppTask/> */}
+  {/* <App/> */}
+  {/* <Page/> */}
+  {/* <GalleryApp/> */}
+  {/* <TaskApp/> */}
+  <ContextContainer/>
   </React.StrictMode>
 );
 

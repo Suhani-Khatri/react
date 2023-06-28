@@ -33,6 +33,7 @@ function Task({task, onChange, onDelete}){
     }else{
         taskContent = (
             <>
+            {task.id}
               {task.text}
               <button onClick={() => setIsEditing(true)}> Edit </button>  
             </>
